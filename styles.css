@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: small;
+    height: 200vh;
+    -webkit-text-fill-color:aquamarine;
+    background-color: rgb(43, 41, 41);
+}
+
+.container {
+    margin-left: 400px;
+    display: flex;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    height: 350px;
+    width:500px;
+    border-radius: 200px;
+
+    border: 2px solid yellow;
+    
+}
+
+
+#display {
+    font-size: 3em;
+   
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color:rgb(228, 231, 223);
+     margin:10px;
+    padding: 5px 20px;
+    font-size: 1em;
+    -webkit-text-fill-color:rgb(64, 55, 55);
+    cursor: pointer;
+    
+    transition: transform 0.3s  ease-in-out;
+}
+
+button:hover{
+    transform: translate(0%,-5%);
+    background-color:yellowgreen;
+}
+
+#laps li{
+
+    padding: 5px;
+    width :150px;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px; /* Add gap between lap boxes */
+    border: 1px solid white;
+
+}
